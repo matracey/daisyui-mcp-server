@@ -1,6 +1,7 @@
-import type { ComponentCategory, DaisyUIComponent, SearchResult } from './types.js'
-import { components } from './data/generated/index.js'
 import { MAX_SEARCH_RESULTS } from './constants.js'
+import { components } from './data/generated/index.js'
+
+import type { ComponentCategory, DaisyUIComponent, SearchResult } from './types.js'
 
 export function searchComponents(
   query: string,
