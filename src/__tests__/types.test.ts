@@ -1,7 +1,9 @@
 import { describe, it, expect } from 'vitest'
-import { components } from '../data/generated/index.js'
-import type { DaisyUIComponent, ComponentCategory } from '../types.js'
+
 import { CATEGORIES } from '../constants.js'
+import { components } from '../data/generated/index.js'
+
+import type { DaisyUIComponent, ComponentCategory } from '../types.js'
 
 const validCategories: ComponentCategory[] = [...CATEGORIES]
 
