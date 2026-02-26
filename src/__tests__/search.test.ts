@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest'
+
 import { searchComponents, findComponent, listComponents } from '../search.js'
 
 describe('searchComponents', () => {
