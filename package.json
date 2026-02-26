@@ -1,0 +1,68 @@
+{
+  "name": "daisyui-mcp-server",
+  "version": "0.1.0",
+  "description": "MCP server for daisyUI React components — search docs, props, and code examples from any AI coding assistant 🌼",
+  "type": "module",
+  "bin": {
+    "daisyui-mcp-server": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "daisyui",
+    "react",
+    "tailwindcss",
+    "model-context-protocol",
+    "ai",
+    "copilot",
+    "claude",
+    "cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matracey/daisyui-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matracey/daisyui-mcp-server/issues"
+  },
+  "homepage": "https://github.com/matracey/daisyui-mcp-server#readme",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "lint": "eslint src/ scripts/ --ext .ts",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "generate": "tsx scripts/generate-knowledge-base.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
+    "@typescript-eslint/parser": "^8.24.1",
+    "@vitest/coverage-v8": "^3.0.7",
+    "cheerio": "^1.0.0",
+    "eslint": "^8.57.1",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.7"
+  }
+}
