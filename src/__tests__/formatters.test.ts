@@ -1,4 +1,5 @@
 import { describe, it, expect } from 'vitest'
+
 import {
   formatComponentSummary,
   formatComponentFull,
@@ -6,6 +7,7 @@ import {
   formatComponentList,
   formatCodeExamples,
 } from '../formatters.js'
+
 import type { DaisyUIComponent, SearchResult, CodeExample } from '../types.js'
 
 const mockComponent: DaisyUIComponent = {
