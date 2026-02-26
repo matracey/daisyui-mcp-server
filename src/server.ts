@@ -2,13 +2,14 @@ import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
 import { z } from 'zod'
 
 import { SERVER_NAME, SERVER_VERSION, CATEGORIES } from './constants.js'
-import { searchComponents, findComponent, listComponents } from './search.js'
 import {
   formatSearchResults,
   formatComponentFull,
   formatComponentList,
   formatCodeExamples,
 } from './formatters.js'
+import { searchComponents, findComponent, listComponents } from './search.js'
+
 import type { ComponentCategory } from './types.js'
 
 export function createServer(): McpServer {
