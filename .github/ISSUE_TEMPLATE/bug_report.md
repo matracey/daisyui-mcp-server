@@ -1,9 +1,9 @@
 ---
 name: Bug Report
 about: Report a bug to help improve daisyui-mcp-server
-title: "[Bug] "
+title: '[Bug] '
 labels: bug
-assignees: ""
+assignees: ''
 ---
 
 ## Describe the Bug

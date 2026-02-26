@@ -3,7 +3,12 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import * as cheerio from 'cheerio'
-import type { ComponentCategory, DaisyUIComponent, ComponentProp, CodeExample } from '../src/types.js'
+import type {
+  ComponentCategory,
+  DaisyUIComponent,
+  ComponentProp,
+  CodeExample,
+} from '../src/types.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -124,7 +129,10 @@ function parsePropsFromSource(source: string, componentName: string): ComponentP
 
     props.push({
       name,
-      type: type.trim().replace(/\/\/.*$/, '').trim(),
+      type: type
+        .trim()
+        .replace(/\/\/.*$/, '')
+        .trim(),
       required: !optional,
       description: `The ${name} prop for ${componentName}`,
     })
@@ -141,9 +149,7 @@ function parseDefaultsFromSource(source: string, props: ComponentProp[]): Compon
 
   const destructured = destructureMatch[1]
   for (const prop of props) {
-    const defaultMatch = destructured.match(
-      new RegExp(`${prop.name}\\s*=\\s*([^,}]+)`)
-    )
+    const defaultMatch = destructured.match(new RegExp(`${prop.name}\\s*=\\s*([^,}]+)`))
     if (defaultMatch) {
       prop.default = defaultMatch[1].trim()
     }
@@ -190,9 +196,7 @@ async function scrapeDocsPage(
 
     // Extract description - usually the first paragraph after h1
     const description =
-      $('meta[name="description"]').attr('content') ||
-      $('main p').first().text().trim() ||
-      ''
+      $('meta[name="description"]').attr('content') || $('main p').first().text().trim() || ''
 
     // Extract CSS class names from the docs table
     const cssClasses: string[] = []
@@ -255,9 +259,7 @@ async function main() {
 
   const srcDir = path.join(tmpDir, 'src')
   const entries = fs.readdirSync(srcDir, { withFileTypes: true })
-  const componentDirs = entries.filter(
-    (e) => e.isDirectory() && CATEGORY_MAP[e.name] !== undefined
-  )
+  const componentDirs = entries.filter((e) => e.isDirectory() && CATEGORY_MAP[e.name] !== undefined)
 
   log(`Found ${componentDirs.length} component directories`)
 

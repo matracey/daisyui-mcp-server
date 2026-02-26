@@ -1,9 +1,9 @@
 ---
 name: Feature Request
 about: Suggest a new feature for daisyui-mcp-server
-title: "[Feature] "
+title: '[Feature] '
 labels: enhancement
-assignees: ""
+assignees: ''
 ---
 
 ## Is your feature request related to a problem?

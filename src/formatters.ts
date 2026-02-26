@@ -40,7 +40,9 @@ export function formatComponentFull(component: DaisyUIComponent): string {
     for (const prop of component.props) {
       const required = prop.required ? '✅' : '❌'
       const defaultVal = prop.default ?? '-'
-      lines.push(`| ${prop.name} | \`${prop.type}\` | ${required} | ${defaultVal} | ${prop.description} |`)
+      lines.push(
+        `| ${prop.name} | \`${prop.type}\` | ${required} | ${defaultVal} | ${prop.description} |`
+      )
     }
   }
 

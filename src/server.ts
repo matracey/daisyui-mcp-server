@@ -23,10 +23,7 @@ export function createServer(): McpServer {
     'Search daisyUI React component documentation. Returns matching components with descriptions, props, and documentation links.',
     {
       query: z.string().describe('Search query'),
-      category: z
-        .enum(CATEGORIES)
-        .optional()
-        .describe('Filter by component category'),
+      category: z.enum(CATEGORIES).optional().describe('Filter by component category'),
       limit: z
         .number()
         .min(1)
@@ -86,9 +83,7 @@ export function createServer(): McpServer {
       const component = findComponent(name)
       if (!component) {
         return {
-          content: [
-            { type: 'text' as const, text: `Component "${name}" not found.` },
-          ],
+          content: [{ type: 'text' as const, text: `Component "${name}" not found.` }],
           isError: true,
         }
       }
@@ -108,10 +103,7 @@ export function createServer(): McpServer {
     'daisyui_list_components',
     'List all available daisyUI React components, optionally filtered by category.',
     {
-      category: z
-        .enum(CATEGORIES)
-        .optional()
-        .describe('Filter by component category'),
+      category: z.enum(CATEGORIES).optional().describe('Filter by component category'),
     },
     async ({ category }) => {
       const components = listComponents(category as ComponentCategory | undefined)

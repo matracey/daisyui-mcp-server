@@ -22,13 +22,13 @@
 
 ## Available Tools
 
-| Tool | Description | Parameters |
-|------|-------------|------------|
-| `daisyui_search` | Search component documentation | `query` (required), `category`, `limit` |
-| `daisyui_get_component` | Get full component docs with props & examples | `name` (required) |
-| `daisyui_get_examples` | Get code examples for a component | `name` (required) |
-| `daisyui_list_components` | List all components, optionally by category | `category` |
-| `daisyui_get_theme_info` | Get daisyUI theme configuration guide | — |
+| Tool                      | Description                                   | Parameters                              |
+| ------------------------- | --------------------------------------------- | --------------------------------------- |
+| `daisyui_search`          | Search component documentation                | `query` (required), `category`, `limit` |
+| `daisyui_get_component`   | Get full component docs with props & examples | `name` (required)                       |
+| `daisyui_get_examples`    | Get code examples for a component             | `name` (required)                       |
+| `daisyui_list_components` | List all components, optionally by category   | `category`                              |
+| `daisyui_get_theme_info`  | Get daisyUI theme configuration guide         | —                                       |
 
 ### Categories
 
@@ -227,15 +227,15 @@ The `scripts/generate-knowledge-base.ts` script:
 
 The search engine uses a token-based scoring system:
 
-| Match Type | Score |
-|-----------|-------|
-| Exact name match | +100 |
-| Name contains query | +50 |
-| Name contains token | +30 |
-| Description contains token | +15 |
-| Prop name matches token | +10 |
-| CSS class matches token | +10 |
-| Example matches token | +5 |
+| Match Type                 | Score |
+| -------------------------- | ----- |
+| Exact name match           | +100  |
+| Name contains query        | +50   |
+| Name contains token        | +30   |
+| Description contains token | +15   |
+| Prop name matches token    | +10   |
+| CSS class matches token    | +10   |
+| Example matches token      | +5    |
 
 Results are sorted by score and returned up to the specified limit (default 5, max 10).
 
