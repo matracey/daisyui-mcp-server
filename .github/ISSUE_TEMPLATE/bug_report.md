@@ -1,6 +1,6 @@
 ---
 name: Bug Report
-about: Report a bug to help improve this MCP server
+about: Report a bug to help improve daisyui-mcp-server
 title: '[Bug] '
 labels: bug
 assignees: ''
@@ -25,9 +25,9 @@ A clear and concise description of what you expected to happen.
 ## Environment
 
 - **OS:** [e.g. macOS 14, Ubuntu 22.04]
-- **Node.js version:** [e.g. 24.0.0]
+- **Node.js version:** [e.g. 22.0.0]
 - **AI Tool:** [e.g. VS Code + Copilot, Claude Desktop, Cursor]
-- **Server version:** [e.g. 0.1.0]
+- **daisyui-mcp-server version:** [e.g. 0.1.0]
 
 ## Additional Context
 

@@ -1,4 +1,4 @@
-# Contributing
+# Contributing to daisyui-mcp-server
 
 Thank you for your interest in contributing! Here are some guidelines to help you get started.
 
@@ -7,8 +7,8 @@ Thank you for your interest in contributing! Here are some guidelines to help yo
 1. Fork the repository
 2. Clone your fork:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo>.git
-   cd <your-repo>
+   git clone https://github.com/<your-username>/daisyui-mcp-server.git
+   cd daisyui-mcp-server
    ```
 3. Install dependencies:
    ```bash
@@ -43,6 +43,14 @@ npm run format        # Auto-format code
 npm run format:check  # Check formatting
 ```
 
+### Regenerate Knowledge Base
+
+If you're adding or updating component data:
+
+```bash
+npm run generate
+```
+
 ## Pull Request Guidelines
 
 - Follow [conventional commits](https://www.conventionalcommits.org/) for commit messages (e.g. `feat:`, `fix:`, `chore:`, `docs:`, `test:`)
@@ -53,7 +61,7 @@ npm run format:check  # Check formatting
 
 ## Reporting Issues
 
-- Use GitHub Issues for bugs and feature requests
+- Use [GitHub Issues](https://github.com/matracey/daisyui-mcp-server/issues) for bugs and feature requests
 - Include your Node.js version, OS, and AI tool when reporting bugs
 - Provide steps to reproduce the issue
 
