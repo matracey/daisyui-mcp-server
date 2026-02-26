@@ -1,8 +1,9 @@
-import { describe, it, expect, beforeAll } from 'vitest'
 import { Client } from '@modelcontextprotocol/sdk/client/index.js'
 import { InMemoryTransport } from '@modelcontextprotocol/sdk/inMemory.js'
-import { createServer } from '../server.js'
+import { describe, it, expect, beforeAll } from 'vitest'
+
 import { SERVER_NAME, SERVER_VERSION } from '../constants.js'
+import { createServer } from '../server.js'
 
 describe('createServer', () => {
   it('should return an McpServer instance', () => {
