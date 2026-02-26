@@ -29,6 +29,6 @@ export default tseslint.config(
     },
   },
   {
-    ignores: ['dist/', 'coverage/'],
+    ignores: ['dist/', 'coverage/', 'src/data/generated/'],
   }
 )
