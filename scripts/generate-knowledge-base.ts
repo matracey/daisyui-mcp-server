@@ -2,7 +2,9 @@ import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+
 import * as cheerio from 'cheerio'
+
 import type {
   ComponentCategory,
   DaisyUIComponent,
