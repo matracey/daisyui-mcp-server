@@ -1,10 +1,10 @@
 {
-  "name": "my-mcp-server",
+  "name": "daisyui-mcp-server",
   "version": "0.1.0",
-  "description": "A starter template for building MCP (Model Context Protocol) servers in TypeScript",
+  "description": "MCP server for daisyUI React components — search docs, props, and code examples from any AI coding assistant 🌼",
   "type": "module",
   "bin": {
-    "my-mcp-server": "./dist/index.js"
+    "daisyui-mcp-server": "./dist/index.js"
   },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -18,24 +18,36 @@
   },
   "keywords": [
     "mcp",
+    "daisyui",
+    "react",
+    "tailwindcss",
     "model-context-protocol",
     "ai",
     "copilot",
     "claude",
     "cursor"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matracey/daisyui-mcp-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matracey/daisyui-mcp-server/issues"
+  },
+  "homepage": "https://github.com/matracey/daisyui-mcp-server#readme",
   "license": "MIT",
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts",
     "start": "node dist/index.js",
-    "lint": "eslint src/",
+    "lint": "eslint src/ scripts/ --ext .ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
     "validate": "run-s format:check lint build test:coverage",
+    "generate": "tsx scripts/generate-knowledge-base.ts",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
@@ -48,6 +60,7 @@
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
     "@vitest/coverage-v8": "^4.0.18",
+    "cheerio": "^1.2.0",
     "eslint": "^10.0.2",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import-x": "^4.16.1",
