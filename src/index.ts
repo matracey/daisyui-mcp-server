@@ -7,7 +7,7 @@ async function main() {
   const server = createServer()
   const transport = new StdioServerTransport()
   await server.connect(transport)
-  console.error('MCP server running on stdio')
+  console.error('daisyUI MCP server running on stdio')
 }
 
 main().catch((error) => {
