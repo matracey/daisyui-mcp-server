@@ -10,7 +10,10 @@ npm run test:coverage  # With coverage report
 npm run lint           # ESLint on src/ and scripts/
 npm run format:check   # Prettier check
 npm run format         # Prettier auto-fix
+npm run validate       # Run all CI checks (format, lint, build, test:coverage)
 ```
+
+**Important:** Always run `npm run validate` after making changes to ensure nothing is broken. This runs the same checks as CI.
 
 Run a single test file:
 

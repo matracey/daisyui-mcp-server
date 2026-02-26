@@ -46,6 +46,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "validate": "run-s format:check lint build test:coverage",
     "generate": "tsx scripts/generate-knowledge-base.ts",
     "prepublishOnly": "npm run build"
   },
@@ -61,6 +62,7 @@
     "@vitest/coverage-v8": "^4.0.18",
     "cheerio": "^1.2.0",
     "eslint": "^10.0.2",
+    "npm-run-all2": "^8.0.4",
     "prettier": "^3.8.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",
