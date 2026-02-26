@@ -1,0 +1,87 @@
+name: Update Knowledge Base
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Weekly on Monday at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Check for daisyUI version change
+        id: version-check
+        run: |
+          CURRENT_VERSION=$(cat .daisyui-version 2>/dev/null || echo "0.0.0")
+          LATEST_VERSION=$(npm view daisyui version)
+          echo "current=$CURRENT_VERSION" >> "$GITHUB_OUTPUT"
+          echo "latest=$LATEST_VERSION" >> "$GITHUB_OUTPUT"
+
+          if [ "$CURRENT_VERSION" = "$LATEST_VERSION" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No daisyUI version change (still $CURRENT_VERSION)"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "daisyUI changed: $CURRENT_VERSION → $LATEST_VERSION"
+          fi
+
+      - name: Regenerate knowledge base
+        if: steps.version-check.outputs.changed == 'true'
+        run: npm run generate
+
+      - name: Check for generated changes
+        if: steps.version-check.outputs.changed == 'true'
+        id: changes
+        run: |
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+            echo "No changes in generated files"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+            echo "Generated files have changed"
+          fi
+
+      - name: Set version, commit, and push
+        if: steps.version-check.outputs.changed == 'true' && steps.changes.outputs.has_changes == 'true'
+        id: bump
+        env:
+          OLD_DAISYUI: ${{ steps.version-check.outputs.current }}
+          NEW_DAISYUI: ${{ steps.version-check.outputs.latest }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage generated files and version file
+          git add src/data/generated/ .daisyui-version
+
+          # Set package version to match daisyUI version
+          npm version "$NEW_DAISYUI" --no-git-tag-version
+          git add package.json package-lock.json
+
+          git commit -m "feat: update knowledge base for daisyUI ${NEW_DAISYUI}
+
+          daisyUI version changed: ${OLD_DAISYUI} → ${NEW_DAISYUI}"
+
+          git tag "v${NEW_DAISYUI}"
+          git push origin main --follow-tags
+
+          echo "version=v${NEW_DAISYUI}" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        if: steps.version-check.outputs.changed == 'true' && steps.changes.outputs.has_changes == 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.bump.outputs.version }}
+          name: ${{ steps.bump.outputs.version }}
+          body: Updated knowledge base for daisyUI ${{ steps.version-check.outputs.latest }}.
+          make_latest: true
