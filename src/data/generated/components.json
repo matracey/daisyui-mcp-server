@@ -1062,42 +1062,42 @@
     "examples": [
       {
         "title": "Example 1",
-        "code": "<div class=\"$$mockup-browser border-base-300 border w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 2",
-        "code": "<div class=\"$$mockup-browser border-base-300 border w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 3",
-        "code": "<div class=\"$$mockup-browser border-base-300 border w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 4",
-        "code": "<div class=\"$$mockup-browser border-base-300 border w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center border-t border-base-300 h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 5",
-        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser bg-base-100 w-full border border-base-300\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 6",
-        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser bg-base-100 w-full border border-base-300\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 7",
-        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser bg-base-100 w-full border border-base-300\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 8",
-        "code": "<div class=\"$$mockup-browser border border-base-300 w-full\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
+        "code": "<div class=\"$$mockup-browser bg-base-100 w-full border border-base-300\">\n  <div class=\"$$mockup-browser-toolbar\">\n    <div class=\"$$input\">https://daisyui.com</div>\n  </div>\n  <div class=\"grid place-content-center h-80\">Hello!</div>\n</div>",
         "language": "html"
       }
     ]
@@ -2683,201 +2683,221 @@
       },
       {
         "title": "Example 5",
-        "code": "<div class=\"$$collapse bg-base-100 border-base-300 border\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 6",
-        "code": "<div class=\"$$collapse bg-base-100 border-base-300 border\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 7",
-        "code": "<div class=\"$$collapse bg-base-100 border-base-300 border\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 8",
-        "code": "<div class=\"$$collapse bg-base-100 border-base-300 border\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input type=\"checkbox\" />\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 9",
-        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input id=\"collapse-1-toggle\" type=\"checkbox\" class=\"peer\" />\n  <label for=\"collapse-1-toggle\" class=\"fixed inset-0 hidden peer-checked:block\"></label>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm z-1\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 10",
-        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input id=\"collapse-1-toggle\" type=\"checkbox\" class=\"peer\" />\n  <label for=\"collapse-1-toggle\" class=\"fixed inset-0 hidden peer-checked:block\"></label>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm z-1\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 11",
-        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input id=\"collapse-1-toggle\" type=\"checkbox\" class=\"peer\" />\n  <label for=\"collapse-1-toggle\" class=\"fixed inset-0 hidden peer-checked:block\"></label>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm z-1\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 12",
-        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
+        "code": "<div class=\"$$collapse bg-base-100 border border-base-300\">\n  <input id=\"collapse-1-toggle\" type=\"checkbox\" class=\"peer\" />\n  <label for=\"collapse-1-toggle\" class=\"fixed inset-0 hidden peer-checked:block\"></label>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm z-1\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 13",
-        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
         "language": "html"
       },
       {
         "title": "Example 14",
-        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
         "language": "html"
       },
       {
         "title": "Example 15",
-        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
         "language": "html"
       },
       {
         "title": "Example 16",
-        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<details class=\"$$collapse bg-base-100 border-base-300 border\">\n  <summary class=\"$$collapse-title font-semibold\">How do I create an account?</summary>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</details>",
         "language": "html"
       },
       {
         "title": "Example 17",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 18",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 19",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 20",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 21",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 22",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 23",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 24",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 25",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 26",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 27",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 28",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-plus bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 29",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 30",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 31",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 32",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-arrow bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold after:start-5 after:end-auto pe-4 ps-12\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 33",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 34",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 35",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 36",
-        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-open bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-open class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 37",
-        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 38",
-        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 39",
-        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 40",
-        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div tabindex=\"0\" class=\"$$collapse $$collapse-close bg-base-100 border-base-300 border\">\n  <div class=\"$$collapse-title font-semibold\">I have collapse-close class</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 41",
-        "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 42",
-        "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 43",
-        "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 44",
+        "code": "<div\n  tabindex=\"0\"\n  class=\"bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content $$collapse\"\n>\n  <div class=\"$$collapse-title font-semibold\">How do I create an account?</div>\n  <div class=\"$$collapse-content text-sm\">\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 45",
+        "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 46",
+        "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 47",
+        "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 48",
         "code": "<div class=\"bg-base-100 border-base-300 $$collapse border\">\n  <input type=\"checkbox\" class=\"peer\" />\n  <div\n    class=\"$$collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    How do I create an account?\n  </div>\n  <div\n    class=\"$$collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content\"\n  >\n    Click the \"Sign Up\" button in the top right corner and follow the registration process.\n  </div>\n</div>",
         "language": "html"
       }
@@ -7391,21 +7411,41 @@
       },
       {
         "title": "Example 33",
-        "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
+        "code": "<div class=\"max-lg:$$collapse bg-base-200 lg:mb-48 shadow-sm w-full rounded-md\">\n  <input id=\"navbar-1-toggle\" class=\"peer hidden\" type=\"checkbox\" />\n  <label for=\"navbar-1-toggle\" class=\"fixed inset-0 hidden max-lg:peer-checked:block\"></label>\n  <div class=\"$$collapse-title $$navbar\">\n    <div class=\"$$navbar-start\">\n      <label for=\"navbar-1-toggle\" class=\"$$btn $$btn-ghost lg:hidden\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h8m-8 6h16\" /></svg>\n      </label>\n      <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n    </div>\n    <div class=\"$$navbar-center hidden lg:flex\">\n      <ul class=\"$$menu $$menu-horizontal px-1\">\n        <li><button>Item 1</button></li>\n        <li>\n          <details>\n            <summary>Parent</summary>\n            <ul class=\"p-2 bg-base-100 w-40 z-1\">\n              <li><button>Submenu 1</button></li>\n              <li><button>Submenu 2</button></li>\n            </ul>\n          </details>\n        </li>\n        <li><button>Item 3</button></li>\n      </ul>\n    </div>\n    <div class=\"$$navbar-end\">\n      <input type=\"text\" placeholder=\"Search\" class=\"$$input $$input-bordered w-64 lg:w-auto\" />\n    </div>\n  </div>\n\n  <div class=\"$$collapse-content lg:hidden z-1\">\n    <ul class=\"$$menu\">\n      <li><button>Item 1</button></li>\n      <li>\n        <button>Parent</button>\n        <ul>\n          <li><button>Submenu 1</button></li>\n          <li><button>Submenu 2</button></li>\n        </ul>\n      </li>\n      <li><button>Item 3</button></li>\n    </ul>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 34",
-        "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
+        "code": "<div class=\"max-lg:$$collapse bg-base-200 lg:mb-48 shadow-sm w-full rounded-md\">\n  <input id=\"navbar-1-toggle\" class=\"peer hidden\" type=\"checkbox\" />\n  <label for=\"navbar-1-toggle\" class=\"fixed inset-0 hidden max-lg:peer-checked:block\"></label>\n  <div class=\"$$collapse-title $$navbar\">\n    <div class=\"$$navbar-start\">\n      <label for=\"navbar-1-toggle\" class=\"$$btn $$btn-ghost lg:hidden\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h8m-8 6h16\" /></svg>\n      </label>\n      <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n    </div>\n    <div class=\"$$navbar-center hidden lg:flex\">\n      <ul class=\"$$menu $$menu-horizontal px-1\">\n        <li><button>Item 1</button></li>\n        <li>\n          <details>\n            <summary>Parent</summary>\n            <ul class=\"p-2 bg-base-100 w-40 z-1\">\n              <li><button>Submenu 1</button></li>\n              <li><button>Submenu 2</button></li>\n            </ul>\n          </details>\n        </li>\n        <li><button>Item 3</button></li>\n      </ul>\n    </div>\n    <div class=\"$$navbar-end\">\n      <input type=\"text\" placeholder=\"Search\" class=\"$$input $$input-bordered w-64 lg:w-auto\" />\n    </div>\n  </div>\n\n  <div class=\"$$collapse-content lg:hidden z-1\">\n    <ul class=\"$$menu\">\n      <li><button>Item 1</button></li>\n      <li>\n        <button>Parent</button>\n        <ul>\n          <li><button>Submenu 1</button></li>\n          <li><button>Submenu 2</button></li>\n        </ul>\n      </li>\n      <li><button>Item 3</button></li>\n    </ul>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 35",
-        "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
+        "code": "<div class=\"max-lg:$$collapse bg-base-200 lg:mb-48 shadow-sm w-full rounded-md\">\n  <input id=\"navbar-1-toggle\" class=\"peer hidden\" type=\"checkbox\" />\n  <label for=\"navbar-1-toggle\" class=\"fixed inset-0 hidden max-lg:peer-checked:block\"></label>\n  <div class=\"$$collapse-title $$navbar\">\n    <div class=\"$$navbar-start\">\n      <label for=\"navbar-1-toggle\" class=\"$$btn $$btn-ghost lg:hidden\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h8m-8 6h16\" /></svg>\n      </label>\n      <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n    </div>\n    <div class=\"$$navbar-center hidden lg:flex\">\n      <ul class=\"$$menu $$menu-horizontal px-1\">\n        <li><button>Item 1</button></li>\n        <li>\n          <details>\n            <summary>Parent</summary>\n            <ul class=\"p-2 bg-base-100 w-40 z-1\">\n              <li><button>Submenu 1</button></li>\n              <li><button>Submenu 2</button></li>\n            </ul>\n          </details>\n        </li>\n        <li><button>Item 3</button></li>\n      </ul>\n    </div>\n    <div class=\"$$navbar-end\">\n      <input type=\"text\" placeholder=\"Search\" class=\"$$input $$input-bordered w-64 lg:w-auto\" />\n    </div>\n  </div>\n\n  <div class=\"$$collapse-content lg:hidden z-1\">\n    <ul class=\"$$menu\">\n      <li><button>Item 1</button></li>\n      <li>\n        <button>Parent</button>\n        <ul>\n          <li><button>Submenu 1</button></li>\n          <li><button>Submenu 2</button></li>\n        </ul>\n      </li>\n      <li><button>Item 3</button></li>\n    </ul>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 36",
+        "code": "<div class=\"max-lg:$$collapse bg-base-200 lg:mb-48 shadow-sm w-full rounded-md\">\n  <input id=\"navbar-1-toggle\" class=\"peer hidden\" type=\"checkbox\" />\n  <label for=\"navbar-1-toggle\" class=\"fixed inset-0 hidden max-lg:peer-checked:block\"></label>\n  <div class=\"$$collapse-title $$navbar\">\n    <div class=\"$$navbar-start\">\n      <label for=\"navbar-1-toggle\" class=\"$$btn $$btn-ghost lg:hidden\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"h-5 w-5\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\"><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h8m-8 6h16\" /></svg>\n      </label>\n      <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n    </div>\n    <div class=\"$$navbar-center hidden lg:flex\">\n      <ul class=\"$$menu $$menu-horizontal px-1\">\n        <li><button>Item 1</button></li>\n        <li>\n          <details>\n            <summary>Parent</summary>\n            <ul class=\"p-2 bg-base-100 w-40 z-1\">\n              <li><button>Submenu 1</button></li>\n              <li><button>Submenu 2</button></li>\n            </ul>\n          </details>\n        </li>\n        <li><button>Item 3</button></li>\n      </ul>\n    </div>\n    <div class=\"$$navbar-end\">\n      <input type=\"text\" placeholder=\"Search\" class=\"$$input $$input-bordered w-64 lg:w-auto\" />\n    </div>\n  </div>\n\n  <div class=\"$$collapse-content lg:hidden z-1\">\n    <ul class=\"$$menu\">\n      <li><button>Item 1</button></li>\n      <li>\n        <button>Parent</button>\n        <ul>\n          <li><button>Submenu 1</button></li>\n          <li><button>Submenu 2</button></li>\n        </ul>\n      </li>\n      <li><button>Item 3</button></li>\n    </ul>\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 37",
+        "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 38",
+        "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 39",
+        "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 40",
         "code": "<div class=\"$$navbar bg-neutral text-neutral-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-base-300\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>\n\n<div class=\"$$navbar bg-primary text-primary-content\">\n  <button class=\"$$btn $$btn-ghost text-xl\">daisyUI</button>\n</div>",
         "language": "html"
       }
