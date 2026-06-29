@@ -110,12 +110,12 @@
     "examples": [
       {
         "title": "Example 1",
-        "code": "<div role=\"alert\" class=\"$$alert\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>12 unread messages. Tap to see.</span>\n</div>",
+        "code": "<div role=\"alert\" class=\"$$alert\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>12 unread messages. Tap to see.</span>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 2",
-        "code": "<div role=\"alert\" class=\"$$alert\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>12 unread messages. Tap to see.</span>\n</div>",
+        "code": "<div role=\"alert\" class=\"$$alert\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>12 unread messages. Tap to see.</span>\n</div>",
         "language": "html"
       },
       {
@@ -190,22 +190,22 @@
       },
       {
         "title": "Example 17",
-        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>we use cookies for no reason.</span>\n  <div>\n    <button class=\"$$btn $$btn-sm\">Deny</button>\n    <button class=\"$$btn $$btn-sm $$btn-primary\">Accept</button>\n  </div>\n</div>",
+        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>we use cookies for no reason.</span>\n  <div>\n    <button class=\"$$btn $$btn-sm\">Deny</button>\n    <button class=\"$$btn $$btn-sm $$btn-primary\">Accept</button>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 18",
-        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>we use cookies for no reason.</span>\n  <div>\n    <button class=\"$$btn $$btn-sm\">Deny</button>\n    <button class=\"$$btn $$btn-sm $$btn-primary\">Accept</button>\n  </div>\n</div>",
+        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <span>we use cookies for no reason.</span>\n  <div>\n    <button class=\"$$btn $$btn-sm\">Deny</button>\n    <button class=\"$$btn $$btn-sm $$btn-primary\">Accept</button>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 19",
-        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <div>\n    <h3 class=\"font-bold\">New message!</h3>\n    <div class=\"text-xs\">You have 1 unread message</div>\n  </div>\n  <button class=\"$$btn $$btn-sm\">See</button>\n</div>",
+        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <div>\n    <h3 class=\"font-bold\">New message!</h3>\n    <div class=\"text-xs\">You have 1 unread message</div>\n  </div>\n  <button class=\"$$btn $$btn-sm\">See</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 20",
-        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <div>\n    <h3 class=\"font-bold\">New message!</h3>\n    <div class=\"text-xs\">You have 1 unread message</div>\n  </div>\n  <button class=\"$$btn $$btn-sm\">See</button>\n</div>",
+        "code": "<div role=\"alert\" class=\"$$alert $$alert-vertical sm:$$alert-horizontal\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" class=\"stroke-current text-info h-6 w-6 shrink-0\">\n    <path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"></path>\n  </svg>\n  <div>\n    <h3 class=\"font-bold\">New message!</h3>\n    <div class=\"text-xs\">You have 1 unread message</div>\n  </div>\n  <button class=\"$$btn $$btn-sm\">See</button>\n</div>",
         "language": "html"
       }
     ],
@@ -1165,6 +1165,16 @@
       {
         "title": "Example 30",
         "code": "<div class=\"$$card lg:$$card-side bg-base-100 shadow-sm\">\n  <figure>\n    <img\n      src=\"https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp\"\n      alt=\"Album\" />\n  </figure>\n  <div class=\"$$card-body\">\n    <h2 class=\"$$card-title\">New album is released!</h2>\n    <p>Click the button to listen on Spotiwhy app.</p>\n    <div class=\"$$card-actions justify-end\">\n      <button class=\"$$btn $$btn-primary\">Listen</button>\n    </div>\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 31",
+        "code": "<div class=\"flex flex-wrap items-start gap-3\">\n  <label class=\"$$card bg-accent text-accent-content\">\n    <input type=\"checkbox\" name=\"card-urgent-1\" />\n    <div class=\"$$card-body\">\n      <h2 class=\"$$card-title\">Urgent</h2>\n      <p>Same day delivery</p>\n    </div>\n  </label>\n\n  <div class=\"$$join bg-base-300 rounded-selector\">\n    <label class=\"$$join-item $$card\">\n      <input type=\"radio\" value=\"sm\" name=\"card-size-1\" />\n      <div class=\"$$card-body\">\n        <h2 class=\"$$card-title\">Size SM</h2>\n        <p>Available</p>\n      </div>\n    </label>\n\n    <label class=\"$$join-item $$card\">\n      <input type=\"radio\" value=\"md\" name=\"card-size-1\" disabled />\n      <div class=\"$$card-body opacity-60\">\n        <h2 class=\"$$card-title\">Size MD</h2>\n        <p>Not available</p>\n      </div>\n    </label>\n\n    <label class=\"$$join-item $$card\">\n      <input type=\"radio\" value=\"lg\" name=\"card-size-1\" />\n      <div class=\"$$card-body\">\n        <h2 class=\"$$card-title\">Size LG</h2>\n        <p>Short supply</p>\n      </div>\n    </label>\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 32",
+        "code": "<div class=\"flex flex-wrap items-start gap-3\">\n  <label class=\"$$card bg-accent text-accent-content\">\n    <input type=\"checkbox\" name=\"card-urgent-1\" />\n    <div class=\"$$card-body\">\n      <h2 class=\"$$card-title\">Urgent</h2>\n      <p>Same day delivery</p>\n    </div>\n  </label>\n\n  <div class=\"$$join bg-base-300 rounded-selector\">\n    <label class=\"$$join-item $$card\">\n      <input type=\"radio\" value=\"sm\" name=\"card-size-1\" />\n      <div class=\"$$card-body\">\n        <h2 class=\"$$card-title\">Size SM</h2>\n        <p>Available</p>\n      </div>\n    </label>\n\n    <label class=\"$$join-item $$card\">\n      <input type=\"radio\" value=\"md\" name=\"card-size-1\" disabled />\n      <div class=\"$$card-body opacity-60\">\n        <h2 class=\"$$card-title\">Size MD</h2>\n        <p>Not available</p>\n      </div>\n    </label>\n\n    <label class=\"$$join-item $$card\">\n      <input type=\"radio\" value=\"lg\" name=\"card-size-1\" />\n      <div class=\"$$card-body\">\n        <h2 class=\"$$card-title\">Size LG</h2>\n        <p>Short supply</p>\n      </div>\n    </label>\n  </div>\n</div>",
         "language": "html"
       }
     ],
@@ -4204,31 +4214,51 @@
       },
       {
         "title": "Example 11",
-        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_6\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_6\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n    <div class=\"$$modal-action\">\n      <label for=\"my_modal_6\" class=\"$$btn\">Close!</label>\n    </div>\n  </div>\n</div>",
+        "code": "<!-- The button's popovertarget attribute points to the modal's ID. ID must be unique for each modal -->\n<button class=\"$$btn\" popovertarget=\"my-modal-1\">Open</button>\n\n<div class=\"$$modal\" id=\"my-modal-1\" popover>\n  <div class=\"$$modal-box\">\n    <h3 class=\"font-bold text-lg\">Hello!</h3>\n    <p class=\"py-4\">Press ESC key or click the button below to close</p>\n    <div class=\"$$modal-action\">\n      <button popovertarget=\"my-modal-1\" popovertargetaction=\"hide\">close</button>\n    </div>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 12",
-        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_6\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_6\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n    <div class=\"$$modal-action\">\n      <label for=\"my_modal_6\" class=\"$$btn\">Close!</label>\n    </div>\n  </div>\n</div>",
+        "code": "<!-- The button's popovertarget attribute points to the modal's ID. ID must be unique for each modal -->\n<button class=\"$$btn\" popovertarget=\"my-modal-1\">Open</button>\n\n<div class=\"$$modal\" id=\"my-modal-1\" popover>\n  <div class=\"$$modal-box\">\n    <h3 class=\"font-bold text-lg\">Hello!</h3>\n    <p class=\"py-4\">Press ESC key or click the button below to close</p>\n    <div class=\"$$modal-action\">\n      <button popovertarget=\"my-modal-1\" popovertargetaction=\"hide\">close</button>\n    </div>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 13",
-        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_7\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_7\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n  </div>\n  <label class=\"$$modal-backdrop\" for=\"my_modal_7\">Close</label>\n</div>",
+        "code": "<!-- The button's popovertarget attribute points to the modal's ID. ID must be unique for each modal -->\n<button class=\"$$btn\" popovertarget=\"my-modal-2\">Open</button>\n\n<div class=\"$$modal\" id=\"my-modal-2\" popover>\n  <div class=\"$$modal-box\">\n    <h3 class=\"font-bold text-lg\">Hello!</h3>\n    <p class=\"py-4\">Press ESC key or click the button below to close</p>\n  </div>\n  <div class=\"$$modal-backdrop\">\n    <button popovertarget=\"my-modal-2\" popovertargetaction=\"hide\">close</button>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 14",
-        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_7\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_7\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n  </div>\n  <label class=\"$$modal-backdrop\" for=\"my_modal_7\">Close</label>\n</div>",
+        "code": "<!-- The button's popovertarget attribute points to the modal's ID. ID must be unique for each modal -->\n<button class=\"$$btn\" popovertarget=\"my-modal-2\">Open</button>\n\n<div class=\"$$modal\" id=\"my-modal-2\" popover>\n  <div class=\"$$modal-box\">\n    <h3 class=\"font-bold text-lg\">Hello!</h3>\n    <p class=\"py-4\">Press ESC key or click the button below to close</p>\n  </div>\n  <div class=\"$$modal-backdrop\">\n    <button popovertarget=\"my-modal-2\" popovertargetaction=\"hide\">close</button>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 15",
-        "code": "<!-- The button to open modal -->\n<a href=\"#my_modal_8\" class=\"$$btn\">open modal</a>\n\n<!-- Put this part before </body> tag -->\n<div class=\"$$modal\" role=\"dialog\" id=\"my_modal_8\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with anchor links</p>\n    <div class=\"$$modal-action\">\n      <a href=\"#\" class=\"$$btn\">Yay!</a>\n    </div>\n  </div>\n</div>",
+        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_6\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_6\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n    <div class=\"$$modal-action\">\n      <label for=\"my_modal_6\" class=\"$$btn\">Close!</label>\n    </div>\n  </div>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 16",
+        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_6\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_6\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n    <div class=\"$$modal-action\">\n      <label for=\"my_modal_6\" class=\"$$btn\">Close!</label>\n    </div>\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 17",
+        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_7\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_7\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n  </div>\n  <label class=\"$$modal-backdrop\" for=\"my_modal_7\">Close</label>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 18",
+        "code": "<!-- The button to open modal -->\n<label for=\"my_modal_7\" class=\"$$btn\">open modal</label>\n\n<!-- Put this part before </body> tag -->\n<input type=\"checkbox\" id=\"my_modal_7\" class=\"$$modal-toggle\" />\n<div class=\"$$modal\" role=\"dialog\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with a hidden checkbox!</p>\n  </div>\n  <label class=\"$$modal-backdrop\" for=\"my_modal_7\">Close</label>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 19",
+        "code": "<!-- The button to open modal -->\n<a href=\"#my_modal_8\" class=\"$$btn\">open modal</a>\n\n<!-- Put this part before </body> tag -->\n<div class=\"$$modal\" role=\"dialog\" id=\"my_modal_8\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with anchor links</p>\n    <div class=\"$$modal-action\">\n      <a href=\"#\" class=\"$$btn\">Yay!</a>\n    </div>\n  </div>\n</div>",
+        "language": "html"
+      },
+      {
+        "title": "Example 20",
         "code": "<!-- The button to open modal -->\n<a href=\"#my_modal_8\" class=\"$$btn\">open modal</a>\n\n<!-- Put this part before </body> tag -->\n<div class=\"$$modal\" role=\"dialog\" id=\"my_modal_8\">\n  <div class=\"$$modal-box\">\n    <h3 class=\"text-lg font-bold\">Hello!</h3>\n    <p class=\"py-4\">This modal works with anchor links</p>\n    <div class=\"$$modal-action\">\n      <a href=\"#\" class=\"$$btn\">Yay!</a>\n    </div>\n  </div>\n</div>",
         "language": "html"
       }
@@ -4982,7 +5012,20 @@
         "title": "Example 24",
         "code": "<input type=\"range\" min=\"0\" max=\"100\" value=\"40\" \n  class=\"$$range text-blue-300 [--range-bg:orange] [--range-thumb:blue] [--range-fill:0]\" />",
         "language": "html"
+      },
+      {
+        "title": "Example 25",
+        "code": "<input type=\"range\" min=\"0\" max=\"100\" value=\"40\" class=\"$$range $$range-vertical\" />",
+        "language": "html"
+      },
+      {
+        "title": "Example 26",
+        "code": "<input type=\"range\" min=\"0\" max=\"100\" value=\"40\" class=\"$$range $$range-vertical\" />",
+        "language": "html"
       }
+    ],
+    "cssClasses": [
+      ".direction"
     ]
   },
   {
@@ -5273,6 +5316,16 @@
         "title": "Example 28",
         "code": "<select defaultValue=\"Pick a color\" className=\"$$select appearance-none\">\n  <option disabled={true}>Pick a color</option>\n  <option>Crimson</option>\n  <option>Amber</option>\n  <option>Velvet</option>\n</select>",
         "language": "tsx"
+      },
+      {
+        "title": "Example 29",
+        "code": "<select class=\"$$select [&::picker(select)]:max-h-26\">\n  <option disabled selected>Pick a color</option>\n  <option>Crimson</option>\n  <option>Amber</option>\n  <option>Velvet</option>\n</select>",
+        "language": "html"
+      },
+      {
+        "title": "Example 30",
+        "code": "<select class=\"$$select [&::picker(select)]:max-h-26\">\n  <option disabled selected>Pick a color</option>\n  <option>Crimson</option>\n  <option>Amber</option>\n  <option>Velvet</option>\n</select>",
+        "language": "html"
       }
     ],
     "subComponents": [
@@ -6629,132 +6682,132 @@
       },
       {
         "title": "Example 7",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-top\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-top $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-top\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-top $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 8",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-top\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-top $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-top\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-top $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Top end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 9",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 10",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-bottom $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Bottom end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 11",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-left\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-left $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-left\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-left $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 12",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-left\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-left $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-left\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-left $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Left end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 13",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-right\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-right $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-right\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-right $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 14",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-right\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-right $$tooltip-start\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right start</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-right\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right</button>\n</div>\n<div class=\"$$tooltip $$tooltip-open $$tooltip-right $$tooltip-end\" data-tip=\"hello\">\n  <button class=\"$$btn\">Right end</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 15",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-neutral\" data-tip=\"neutral\">\n  <button class=\"$$btn $$btn-neutral\">neutral</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-primary\" data-tip=\"primary\">\n  <button class=\"$$btn $$btn-primary\">primary</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 16",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-neutral\" data-tip=\"neutral\">\n  <button class=\"$$btn $$btn-neutral\">neutral</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-primary\" data-tip=\"primary\">\n  <button class=\"$$btn $$btn-primary\">primary</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 17",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-primary\" data-tip=\"primary\">\n  <button class=\"$$btn $$btn-primary\">primary</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-secondary\" data-tip=\"secondary\">\n  <button class=\"$$btn $$btn-secondary\">secondary</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 18",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-primary\" data-tip=\"primary\">\n  <button class=\"$$btn $$btn-primary\">primary</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-secondary\" data-tip=\"secondary\">\n  <button class=\"$$btn $$btn-secondary\">secondary</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 19",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-secondary\" data-tip=\"secondary\">\n  <button class=\"$$btn $$btn-secondary\">secondary</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-accent\" data-tip=\"accent\">\n  <button class=\"$$btn $$btn-accent\">accent</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 20",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-secondary\" data-tip=\"secondary\">\n  <button class=\"$$btn $$btn-secondary\">secondary</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-accent\" data-tip=\"accent\">\n  <button class=\"$$btn $$btn-accent\">accent</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 21",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-accent\" data-tip=\"accent\">\n  <button class=\"$$btn $$btn-accent\">accent</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-info\" data-tip=\"info\">\n  <button class=\"$$btn $$btn-info\">info</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 22",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-accent\" data-tip=\"accent\">\n  <button class=\"$$btn $$btn-accent\">accent</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-info\" data-tip=\"info\">\n  <button class=\"$$btn $$btn-info\">info</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 23",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-info\" data-tip=\"info\">\n  <button class=\"$$btn $$btn-info\">info</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-success\" data-tip=\"success\">\n  <button class=\"$$btn $$btn-success\">success</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 24",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-info\" data-tip=\"info\">\n  <button class=\"$$btn $$btn-info\">info</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-success\" data-tip=\"success\">\n  <button class=\"$$btn $$btn-success\">success</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 25",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-success\" data-tip=\"success\">\n  <button class=\"$$btn $$btn-success\">success</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-warning\" data-tip=\"warning\">\n  <button class=\"$$btn $$btn-warning\">warning</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 26",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-success\" data-tip=\"success\">\n  <button class=\"$$btn $$btn-success\">success</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-warning\" data-tip=\"warning\">\n  <button class=\"$$btn $$btn-warning\">warning</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 27",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-warning\" data-tip=\"warning\">\n  <button class=\"$$btn $$btn-warning\">warning</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-error\" data-tip=\"error\">\n  <button class=\"$$btn $$btn-error\">error</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 28",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-warning\" data-tip=\"warning\">\n  <button class=\"$$btn $$btn-warning\">warning</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-error\" data-tip=\"error\">\n  <button class=\"$$btn $$btn-error\">error</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 29",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-error\" data-tip=\"error\">\n  <button class=\"$$btn $$btn-error\">error</button>\n</div>",
+        "code": "<div class=\"$$lg:tooltip\" data-tip=\"hello\">\n  <button class=\"$$btn\">Hover me</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 30",
-        "code": "<div class=\"$$tooltip $$tooltip-open $$tooltip-error\" data-tip=\"error\">\n  <button class=\"$$btn $$btn-error\">error</button>\n</div>",
+        "code": "<div class=\"$$lg:tooltip\" data-tip=\"hello\">\n  <button class=\"$$btn\">Hover me</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 31",
-        "code": "<div class=\"$$lg:tooltip\" data-tip=\"hello\">\n  <button class=\"$$btn\">Hover me</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-start $$md:tooltip-right $$md:tooltip-center\" data-tip=\"hello\">\n  <button class=\"$$btn\">Hover me</button>\n</div>",
         "language": "html"
       },
       {
         "title": "Example 32",
-        "code": "<div class=\"$$lg:tooltip\" data-tip=\"hello\">\n  <button class=\"$$btn\">Hover me</button>\n</div>",
+        "code": "<div class=\"$$tooltip $$tooltip-start $$md:tooltip-right $$md:tooltip-center\" data-tip=\"hello\">\n  <button class=\"$$btn\">Hover me</button>\n</div>",
         "language": "html"
       }
     ]
